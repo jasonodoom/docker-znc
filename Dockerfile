@@ -6,7 +6,8 @@ FROM ubuntu:14.04.1
 MAINTAINER Dariel Dato-on <oddrationale@gmail.com>
 
 # Compile ZNC from source
-ADD http://znc.in/releases/znc-1.4.tar.gz /tmp/
+#ADD http://znc.in/releases/znc-1.4.tar.gz /tmp/
+ADD http://znc.in/releases/archive/znc-1.4.tar.gz /tmp/
 ADD build.sh /tmp/
 RUN /tmp/build.sh
 
